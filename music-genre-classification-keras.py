@@ -177,3 +177,4 @@ sns.heatmap(mat.T, square=True, annot=True, fmt='d', cbar=False,
             yticklabels=dict_genres.keys())
 plt.xlabel('Actual Label')
 plt.ylabel('Predicted Label')
+plt.show()
